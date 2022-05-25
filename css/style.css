@@ -1,0 +1,105 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+ul,
+ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+span,
+.education h4 {
+    color: #FB6D3A;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    margin: 0;
+}
+
+.data {
+    font-size: 12px;
+    color: #a8a8a8;
+    margin: 0;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main__content {
+    padding: 100px 50px;
+}
+
+.about {
+    max-width: 400px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.about__text {
+    color: #595959;
+}
+
+.project {
+    margin: 50px 0;
+}
+
+.project a {
+    color: #595959;
+}
+
+.position {
+    margin-block: 15px;
+}
+
+.work {
+    max-width: 525px;
+}
+
+.education h5 {
+    margin: 0;
+}
+
+.user-img {
+    width: 370px;
+    height: 380px;
+    padding: 40px 0 51px;
+}
+
+.sidebar {
+    background-color: #1E2939;
+    color: #fff;
+}
+
+.skills__list-item::marker {
+    color: #FB6D3A;
+}
+
+.contacts a {
+    color: #fff;
+    opacity: .5;
+}
+
+.contacts,
+.skills {
+    margin-left: 40px;
+}
+
+.tech__skills {
+    padding: 45px 0;
+}
